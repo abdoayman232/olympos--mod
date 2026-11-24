@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "olympus_aether:item/terra_shovel_of_demeter"
+  }
+}

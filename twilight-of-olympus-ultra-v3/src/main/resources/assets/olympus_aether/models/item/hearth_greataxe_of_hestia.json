@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "olympus_aether:item/hearth_greataxe_of_hestia"
+  }
+}

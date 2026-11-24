@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "olympus_aether:item/talaria_of_hermes"
+  }
+}

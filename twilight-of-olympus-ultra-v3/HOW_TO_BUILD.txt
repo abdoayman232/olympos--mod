@@ -1,0 +1,24 @@
+============================================================
+Twilight of Olympus: Legacy of Aether — ULTRA v3 (Fabric 1.21.1)
+دليل استخراج ملف الـ JAR وتشغيله في ماينكرافت
+============================================================
+
+الطريقة 1 — عبر Windows PowerShell (بأمر واحد مع وجود JDK 21):
+1. ثبت JDK 21 من https://adoptium.net
+2. افتح PowerShell داخل هذا المجلد وشغّل:
+   mkdir .gradle-dist -Force; Invoke-WebRequest -Uri 'https://services.gradle.org/distributions/gradle-8.13-bin.zip' -OutFile '.gradle-dist\g.zip'; Expand-Archive '.gradle-dist\g.zip' '.gradle-dist' -Force; .\.gradle-dist\gradle-8.13\bin\gradle.bat build --no-daemon
+3. ملف المود الجاهز سيكون في:
+   build\libs\twilight-of-olympus-ultra-aether-3.0.0.jar
+
+الطريقة 2 — بدون تثبيت أي برامج (عبر GitHub Actions):
+1. ارفع محتويات هذا المجلد إلى مستودع GitHub مجاني.
+2. افتح تبويب Actions -> انتظر ~90 ثانية -> حمّل الـ JAR من قسم Artifacts.
+
+التشغيل في ماينكرافت:
+- انسخ ملف الـ JAR إلى مجلد mods مع Fabric Loader 1.21.1 و Fabric API 1.21.1.
+
+أوامر الاختبار الفوري داخل العالم:
+- /olympus give_all       -> تجهيز الطقم الأولمبي الكامل + الأجنحة الذهبية 3D والأسلحة
+- /olympus awaken_aether  -> إيقاظ نواة الإيثر (الطبقة الثالثة) وظهور شريط الإيثر والـ HUD
+- /olympus spawn_shrine 1 -> بناء ضريح المحطة 1 بالختم البنفسجي والصندوق أمامك
+- /olympus spawn_warmark  -> توليد معلم حرب ومسلة النقوش المضيئة أمامك

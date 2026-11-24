@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "olympus_aether:item/moonbow_of_artemis"
+  }
+}
