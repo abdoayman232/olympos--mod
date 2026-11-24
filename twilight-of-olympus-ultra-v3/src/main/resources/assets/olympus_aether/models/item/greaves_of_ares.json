@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "olympus_aether:item/greaves_of_ares"
-  }
-}
